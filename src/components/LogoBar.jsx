@@ -1,5 +1,5 @@
 import React from 'react';
-import './LogoBar.css';
+import './Logobar.css';
 import amazonIcon from '../assets/amazon.svg';
 import hubspotIcon from '../assets/hubspot.svg';
 import notionIcon from '../assets/notion.svg';
