@@ -1,0 +1,230 @@
+.testimonial-container {
+  padding: 50px;
+  border-radius: 40px;
+  margin: auto;
+  color: white;
+  margin-bottom: 100px;
+  min-height: 514px;
+  background: rgba(25, 26, 35, 1);
+  width: 100%;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.testimonial-card {
+  padding: 30px;
+  border-radius: 30px;
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+}  
+
+.msg-box {
+  width: 100%;
+  max-width: 606px;
+  background-image: url('../assets/bubble.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 237px;
+}
+
+.name {
+  color: #9EFF00;
+  font-weight: bold;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+  left: -200px;
+  top: -20px;
+}
+
+.Title {
+  font-size: 14px;
+  color: #d1d1d1;
+  position: relative;
+  text-align: center;
+  left: -200px;
+  top: -20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px !important;
+  opacity: 1;
+  z-index: 50;
+  color: transparent;
+}
+
+.swiper-button-prev {
+  background-image: url('../assets/arrowBright.svg');
+  transform: rotate(-180deg);
+  left: 350px;
+  top: 95%;
+}
+
+.swiper-button-next {
+  background-image: url('../assets/arrowBright.svg');
+  right: 350px;
+  top: 100%;
+  transform: translateY(-50%);
+}
+
+.swiper-pagination-bullet {
+  background-image: url('../assets/Vector.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+  border-radius: 0;
+  margin-top:30px;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: transparent;
+  background-image: url('../assets/Vectorcolor.svg');
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonial-container {
+    padding: 40px 30px;
+    position:relative;
+    /* width: 300px; */
+  }
+.testimonial-card{
+  max-width: 300px;
+  min-height:450px;
+
+}
+  .msg-box {
+    font-size: 12px;
+    max-width: 300px;
+    background-image: url('../assets/union.svg');
+
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 20px;
+    height: 20px !important;
+    top: 100%;
+  }
+
+  .swiper-button-prev {
+    left: 30px;
+  }
+
+  .swiper-button-next {
+    right: 30px;
+  }
+  .name {
+    color: #9EFF00;
+    font-weight: bold;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    left: -80px;
+    top: -20px;
+  }
+  
+  .Title {
+    font-size: 14px;
+    color: #d1d1d1;
+    position: relative;
+    text-align: center;
+    left: -80px;
+    top: -20px;
+  }
+  
+}
+
+@media screen and (max-width: 568px) {
+  .testimonial-container {
+    padding: 30px 15px;
+    max-width: 300px;
+  
+  }
+
+  .testimonial-card {
+    padding: 15px;
+    max-height: 100%;
+    min-height:450px;
+  }
+  .testimonial-card{
+    max-width: 300px;
+  
+  }
+  .msg-box {
+    font-size: 12px;
+    padding: 10px;
+    max-width: 300px;
+    background-image: url('../assets/union.svg');
+    min-height:218px;
+
+  }
+  .name {
+    color: #9EFF00;
+    font-weight: bold;
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    left: -60px;
+    top: -20px;
+  }
+  
+  .Title {
+    font-size: 14px;
+    color: #d1d1d1;
+    position: relative;
+    text-align: center;
+    left: -20px;
+    top: -20px;
+  }
+  
+
+  .name,
+  .Title {
+    font-size: 13px;
+    margin-top: 10px;
+    top: -10px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 18px;
+    height: 18px !important;
+    top: 94%;
+  }
+
+  .swiper-button-prev {
+    left: 15px;
+  }
+
+  .swiper-button-next {
+    right: 15px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+}

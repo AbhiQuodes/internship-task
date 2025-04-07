@@ -1,0 +1,54 @@
+
+.logo-bar-wrapper {
+    overflow: hidden;
+    /* width: 100%; */
+    white-space: nowrap;
+    background-color: #fff; /* optional */
+    padding: 10px 0;
+    margin:50px;
+  }
+  
+  .logo-bar {
+    display: inline-flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .logo-bar img {
+    height: 40px;
+    margin: 0 20px;
+    flex-shrink: 0;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  /* Tablet View (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .logo-bar-wrapper {
+    margin: 30px;
+    padding: 8px 0;
+  }
+
+  .logo-bar img {
+    height: 35px;
+    margin: 0 16px;
+  }
+}
+
+/* Mobile View (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .logo-bar-wrapper {
+    margin: 20px;
+    padding: 6px 0;
+  }
+
+  .logo-bar img {
+    height: 30px;
+    margin: 0 12px;
+  }
+}

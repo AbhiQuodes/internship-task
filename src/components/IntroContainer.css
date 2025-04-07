@@ -1,0 +1,126 @@
+section{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    /* min-width:1440px; */
+    height:calc(100vh - 68px);
+    min-height:515px;
+    color: rgba(0, 0, 0, 1);
+}
+.box{
+    max-width: 531px;
+    max-height: 481px;
+    display:flex;
+    flex-flow:column;
+    gap:35px;
+
+}
+.box img{
+    width:100%;
+    height:100%;
+}
+section div  h1{
+
+font-weight: 500;
+font-size: 60px;
+line-height:80px;
+letter-spacing: 0%;
+width: 531px;
+
+
+}
+section div  p{
+    max-width: 498px;
+    max-height: 112px;
+    line-height:28px;
+    font-size:20px;
+
+}
+
+section div  button{
+    max-width: 264px;
+    height: 68px;
+    gap: 10px;
+    border-radius: 14px;
+    background: rgba(25, 26, 35, 1);
+    color:white;
+    font-size:20px;
+
+}
+@media screen and (max-width: 1024px) {
+    section {
+      flex-direction: column-reverse;
+      padding: 40px 20px;
+      height: auto;
+      text-align: left;
+    }
+  
+    .box {
+      max-width: 90%;
+      align-items: center;
+      gap: 25px;
+    }
+  
+    section div h1 {
+      font-size: 40px;
+      line-height: 52px;
+      width: 100%;
+    }
+  
+    section div p {
+      font-size: 18px;
+      max-width: 90%;
+    }
+  
+    section div button {
+      max-width: 220px;
+      height: 58px;
+      font-size: 18px;
+      margin-top: 50px;
+    }
+  
+    .box img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    section {
+      flex-direction: column-reverse;
+      padding: 30px 16px;
+      height: auto;
+      gap: 20px;
+    }
+  
+    .box {
+      max-width: 100%;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    section div h1 {
+      font-size: 32px;
+      line-height: 44px;
+    }
+  
+    section div p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    section div button {
+      width: 100%;
+      max-width: 100%;
+      height: 52px;
+      font-size: 16px;
+    }
+  
+    .box img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  
