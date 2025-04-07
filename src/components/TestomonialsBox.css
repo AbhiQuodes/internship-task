@@ -27,7 +27,7 @@
 .msg-box {
   width: 100%;
   max-width: 606px;
-  background-image: url('../assets/bubble.svg');
+  background-image: url('../assets/Bubble.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,14 +73,14 @@
 }
 
 .swiper-button-prev {
-  background-image: url('../assets/arrowBright.svg');
+  background-image: url('../assets/ArrowBright.svg');
   transform: rotate(-180deg);
   left: 350px;
   top: 95%;
 }
 
 .swiper-button-next {
-  background-image: url('../assets/arrowBright.svg');
+  background-image: url('../assets/ArrowBright.svg');
   right: 350px;
   top: 100%;
   transform: translateY(-50%);
@@ -118,7 +118,7 @@
   .msg-box {
     font-size: 12px;
     max-width: 300px;
-    background-image: url('../assets/union.svg');
+    background-image: url('../assets/Union.svg');
 
   }
 
@@ -177,7 +177,7 @@
     font-size: 12px;
     padding: 10px;
     max-width: 300px;
-    background-image: url('../assets/union.svg');
+    background-image: url('../assets/Union.svg');
     min-height:218px;
 
   }
