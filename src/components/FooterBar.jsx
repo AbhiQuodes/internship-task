@@ -1,6 +1,6 @@
 import React from "react";
 import "./FooterBar.css";
-import logo from "../assets/whitelogo.svg";
+import logo from "../assets/whiteLogo.svg";
 
 import linkedin from "/src/assets/linkedin.svg";
 import twitter from "/src/assets/twitter.svg";
