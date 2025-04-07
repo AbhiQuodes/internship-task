@@ -8,7 +8,7 @@ import Card from "./components/Card";
 import advertisingIllustration from "/src/assets/advertisingIllustration.svg";
 import searchIllustration from "/src/assets/searchIllustration.svg";
 import FooterBar from "./components/FooterBar";
-import LogoBar from "./components/logoBar";
+import LogoBar from "./components/LogoBar";
 import arrowIcon from "/src/assets/arrowIcon.svg";
 import plusIcon from "/src/assets/plusicon.svg";
 import minusIcon from "/src/assets/minusicon.svg";
